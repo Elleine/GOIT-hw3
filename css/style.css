@@ -146,6 +146,8 @@ color: var(--line-color);
     text-decoration: none;
     margin-left: auto;
     gap: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .contacts-ul a {
