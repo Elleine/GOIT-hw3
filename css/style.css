@@ -118,6 +118,8 @@ color: var(--photo-color);
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
+                padding-top: 30px;
+                    padding-bottom: 30px;
 
 }
 
