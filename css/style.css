@@ -47,7 +47,7 @@ img {
 
 .header {
 border: 1px solid #ECECEC;
-padding: 0;
+
 }
 
 .header-left {
@@ -134,6 +134,8 @@ color: var(--photo-color);
 .nav-ul-li a {
     text-decoration: none;
     color: inherit;
+    padding-top: 32px;
+    padding-bottom: 32px;
 
 }
 
@@ -163,6 +165,8 @@ text-decoration: none;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .contacts-ul li a:hover,
@@ -260,12 +264,14 @@ color: var(--text-color);
     display: flex;
     justify-content: center;
     gap: 30px;
-    padding-bottom: 94px;
+}
+.doings{
+    padding-top: 94px;
+        padding-bottom: 94px;
 }
 
 .team {
     background-color: #f4f4fd;
-    padding: 120px 156px;
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -400,11 +406,7 @@ color: var(--text-color);
         padding-bottom: 60px;
 }
 
-.footer-bottom-wrapper {
-    min-width: 1128px;
-    justify-content: space-between;
- gap: 20px;
-}
+
 
 .footer-bottom-wrapper a {
 color: #FFF;
@@ -415,21 +417,22 @@ color: #FFF;
     line-height: normal;
     letter-spacing: 0.78px;
     text-decoration: none;
+    margin-bottom: 20px;
 }
 
-.footer-bottom-address {
+.footer-bottom-text {
     color: var(--text-color);
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0.42px
+    letter-spacing: 0.42px;
+    margin-top: 20px;
 }
 
-.footer-bottom-address a {
+.footer-bottom-text a {
 color: rgba(255, 255, 255, 0.60);
-
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
@@ -439,9 +442,7 @@ color: rgba(255, 255, 255, 0.60);
     letter-spacing: 0.42px;
 }
 
-.footer-bottom-wrapper p {
-    margin-top: 16px;
-}
+
 
 .footer-bottom-wrapper span {
 color: var(--line-color);
@@ -461,13 +462,11 @@ font-size: 14px;
     font-weight: 400;
     letter-spacing: 0.42px;
         line-height: 1.71;
-        margin-bottom: 12px;
+        margin-bottom: 9px;
 }
 
 .footer-ul {
-    gap: 24px;
     align-items: start;
- margin-top: 28px;
 }
 
 .footer-ul svg:hover,
