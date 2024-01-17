@@ -117,6 +117,7 @@ align-items: center;
     gap: 30px;
     margin-left: auto;
     display: flex;
+
 }
 
 .nav-ul-li {
@@ -126,8 +127,6 @@ color: var(--photo-color);
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
-    padding-top: 32px;
-    padding-bottom: 32px;
     display: block;
 }
 
@@ -136,7 +135,7 @@ color: var(--photo-color);
     color: inherit;
     padding-top: 32px;
     padding-bottom: 32px;
-
+    display: block;
 }
 
 .nav-ul-li a:hover,
@@ -266,7 +265,6 @@ color: var(--text-color);
     gap: 30px;
 }
 .doings{
-    padding-top: 94px;
         padding-bottom: 94px;
 }
 
@@ -398,15 +396,32 @@ color: var(--text-color);
         flex-wrap: wrap;
         margin-bottom: 50px;
 }
+.logo-footer {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+    text-decoration: none;
+}
 
-
+.logo-footer span {
+    color: var(--line-color);
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
 .footer-bottom {
     background-color: #2F303A;
         padding-top: 60px;
         padding-bottom: 60px;
+        gap: 9px;
 }
-
-
 
 .footer-bottom-wrapper a {
 color: #FFF;
@@ -423,12 +438,13 @@ color: #FFF;
 .footer-bottom-text {
     color: var(--text-color);
     font-family: Roboto;
+    letter-spacing: 0.42px;
+    margin-top: 20px;
+    color: #FFF;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.42px;
-    margin-top: 20px;
+    line-height: 1.71;
 }
 
 .footer-bottom-text a {
@@ -441,8 +457,6 @@ color: rgba(255, 255, 255, 0.60);
     text-decoration: none;
     letter-spacing: 0.42px;
 }
-
-
 
 .footer-bottom-wrapper span {
 color: var(--line-color);
@@ -461,8 +475,8 @@ font-size: 14px;
     font-style: normal;
     font-weight: 400;
     letter-spacing: 0.42px;
-        line-height: 1.71;
-        margin-bottom: 9px;
+    line-height: 1.71;
+
 }
 
 .footer-ul {
