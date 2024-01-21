@@ -37,7 +37,7 @@ h3 {
         font-weight: 700;
         line-height: 2;
         letter-spacing: 1.08px;
-        margin-bottom: 4px;
+        margin-bottom: 10px;
 }
 img {
     display: block;
@@ -50,7 +50,9 @@ border-bottom
 : 1px solid #ECECEC;
 
 }
-
+.link {
+    text-decoration: none;
+}
 .header-left {
     display: flex;
     align-items: center;
@@ -323,8 +325,8 @@ color: var(--text-color);
 .menu {
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
-    gap: 8px;
+    margin-bottom: 34px;
+    gap: 10px;
 
 }
 
@@ -386,7 +388,6 @@ color: var(--text-color);
     line-height: 30px;
     letter-spacing: 0.48px;
     align-items: center;
-
     list-style: none;
     justify-content: center;
     display: flex;
@@ -398,6 +399,9 @@ color: var(--text-color);
         border-bottom: 1px solid #EEE;
         border-right: 1px solid #EEE;
         padding: 20px 24px;
+}
+.portfolio-link {
+color: var(--text-color);
 }
 
 .logo-footer {
