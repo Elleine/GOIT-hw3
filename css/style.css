@@ -403,6 +403,13 @@ color: var(--text-color);
 .work-link link {
 color: var(--text-color);
 }
+.work-title{
+    margin-bottom: 4px;
+}
+
+.work-text{
+    color: 757575;
+}
 
 .logo-footer {
     color: #ffffff;
